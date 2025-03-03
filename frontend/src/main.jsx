@@ -8,11 +8,13 @@ import { createRoot } from 'react-dom/client'
 
 import HomeScreen from './pages/HomeScreen.jsx';
 import App from './App.jsx'
+import ProductScreen from './pages/ProductScreen.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App />}>
       <Route index element={<HomeScreen />} />
+      <Route path='/product/:id' element={<ProductScreen />} />
     </Route>
   )
 )

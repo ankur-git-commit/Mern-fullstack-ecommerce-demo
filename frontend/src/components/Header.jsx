@@ -8,10 +8,8 @@ function Header() {
         <header>
             <Navbar bg="dark" data-bs-theme="dark" expand="lg" collapseOnSelect>
                 <Container>
-                    <NavbarBrand>
-                        <Nav.Link as={Link} to="/">
-                            ProShop
-                        </Nav.Link>
+                    <NavbarBrand as={Link} to="/">
+                        ProShop
                     </NavbarBrand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
