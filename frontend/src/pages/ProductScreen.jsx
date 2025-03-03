@@ -11,7 +11,7 @@ function ProductScreen() {
     return (
         <>
             <Link className="btn btn-light my-3" to="/">
-                Go back
+                {`< Back`}
             </Link>
             <Row>
                 <Col md={5}>
