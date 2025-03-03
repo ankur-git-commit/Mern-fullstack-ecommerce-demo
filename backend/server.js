@@ -1,8 +1,11 @@
 import express from 'express'
-import products from './products.js'
+import products from './data/products.js'
+import dotenv from 'dotenv'
+dotenv.config()
+
 
 const app = express()
-const PORT = 5000
+const PORT = process.env.PORT || 3000
 
 app.get('/', (request, response) => {
     response.send('API is running....')

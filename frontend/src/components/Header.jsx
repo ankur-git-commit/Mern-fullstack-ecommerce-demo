@@ -1,7 +1,6 @@
-import { LinkContainer } from "react-router-bootstrap"
-import { Link } from "react-router"
 import { Navbar, Nav, Container, NavbarBrand } from "react-bootstrap"
 import { FaShoppingCart, FaUser } from "react-icons/fa"
+import { Link } from "react-router-dom"
 
 function Header() {
     return (
