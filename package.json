@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node --watch backend/server.js",
     "server": "nodemon backend/server.js",
-    "client": "npm run --prefix frontend"
+    "client": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Ankur Kumar",
   "license": "MIT",
