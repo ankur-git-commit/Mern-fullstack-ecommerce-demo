@@ -13,11 +13,14 @@
   "author": "Ankur Kumar",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.21.2"
+    "bcryptjs": "^3.0.2",
+    "express": "^4.21.2",
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.14.0"
   },
   "devDependencies": {
+    "colors": "^1.4.0",
     "concurrently": "^9.1.2",
-    "dotenv": "^16.4.7",
     "nodemon": "^3.1.9"
   }
 }
